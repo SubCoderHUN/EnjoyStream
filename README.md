@@ -1,4 +1,5 @@
 # EnjoyStream
+<html>
 <h1 style="text-align: center;">EnjoyStream</h1>
 <h3 id="tw-target-text" class="tw-data-text tw-text-large XcVN5d tw-ta" dir="ltr" style="text-align: center;" data-placeholder="Ford&iacute;t&aacute;s"><span lang="en" style="color: #ff0000;">This is an open source, online radio broadcast receiver software that anyone is free to modify by displaying the source!</span></h3>
 <p><strong>Features:</strong></p>
@@ -9,3 +10,4 @@
 <li>Minimize to system tray</li>
 <li>Licensing with registry key</li>
 </ul>
+</html>
