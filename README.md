@@ -8,7 +8,7 @@
 <li>Play/Pause&nbsp;</li>
 <li>Stream buffering for better quality</li>
 <li>Minimize to system tray</li>
-<li>Licensing with registry key</li>
+<li>Licensing with registry key (more in IMPORTANT.txt)</li>
 <li>Fody</li>
 </ul>
     <h1 style="text-align: center;">The sale of the software is strictly prohibited!</h1>
