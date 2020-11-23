@@ -12,5 +12,6 @@
 <li>Fody</li>
 </ul>
 <h1 style="text-align: center;">Sale of the software is strictly prohibited!</h1>
+    <p><img src="https://github.com/SubCoderHUN/EnjoyStream/blob/main/denied.jpg?raw=true" alt="" width="250" height="192" /></p>
     </body>
 </html>
