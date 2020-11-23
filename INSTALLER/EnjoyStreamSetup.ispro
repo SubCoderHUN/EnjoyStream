@@ -1,0 +1,53 @@
+; InstallSimple project
+
+[Setup]
+WindowTitle=EnjoyStream V2.1 - Installer
+ProductName=EnjoyStream V2.1
+
+[Graphics]
+SplashScreen=
+SplashScreenDelay=3
+Header=S:\Projektek\EnjoyStream\Resources\enjoyplayer-5.bmp
+HeaderJustify=Right
+HeaderFontColor=0
+WizardBitmap=S:\Projektek\EnjoyStream\Resources\enjoyplayer-5.bmp
+WizardFontColor=0
+
+[FirstMessage]
+
+[LastMessage]
+Thank you for using EnjoyStream V2.1!
+
+[LicenseAgreement]
+Modifying the software without displaying the source, will have legal consequences.
+Sale of the software is strictly prohibited!
+The sole owner of the program: 
+Novák "SubCoder" Zalán - Discord: U3ViQ29kZXI = # 4911
+
+The program is protected by copyright!
+If you have any questions, please contact the developer!
+
+[SetupFiles]
+SourceFolder=S:\Projektek\EnjoyStream\bin\Release\
+SpecialFolder=Program Files
+SetupPath=EnjoyStreamV2.1
+SetupFile=S:\Projektek\EnjoyStream\INSTALLER\EnjoyStreamSetup2.1.exe
+
+[Shortcuts]
+ProgramGroup=
+EnjoyStream.exe=dmq
+
+[Registry]
+[HKEY_CURRENT_USER\Software\EnjoyStream]
+"LICENSE"="BT8JuHa8Xc8mgG8cvGHkPddZRqzpJ8bPGRZYTZCD"
+[HKEY_CURRENT_USER\Software\EnjoyStream]
+"CALL"="pKdm2ZnClWajH0pMU9798AdpGnnoOHLcIabjuYIom92hfjTXeqJw/UL1mfyYdWjy"
+
+[Requirements]
+OperatingSystem=4
+NetFramework=4.0
+NetFrameworkLink=http://www.microsoft.com/en-us/download/details.aspx?id=17718
+AdminRights=1
+
+[AfterInstalling]
+Reboot=0

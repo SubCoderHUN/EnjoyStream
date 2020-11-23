@@ -1,0 +1,18 @@
+2020.10.10
+FIST RELEASE
+
+2020.10.12
+- Added 2 more radio 
+- Added elipsed time counter
+- Application has been redesigned
+- Fixed some bugs
+- Pause with the picture
+
+2020.10.13
+- Added about window (?)
+- Added 5 more radio channel
+- New elipsed time counter
+- New interface, new design
+- Fixed some bugs
+- Now the application needs product key
+- Removed audio visualizer.

@@ -1,0 +1,15 @@
+! REGISTRY KEYS !
+
+Path:
+\HKEY_CURRENT_USER\Software\EnjoyStream
+
+Must be created by the installer:
+-----------------------------------------------------------------------
+LICENSE: BT8JuHa8Xc8mgG8cvGHkPddZRqzpJ8bPGRZYTZCD
+CALL: pKdm2ZnClWajH0pMU9798AdpGnnoOHLcIabjuYIom92hfjTXeqJw/UL1mfyYdWjy
+-----------------------------------------------------------------------
+
+User must authenticate their product key:
+-----------------------------------------------------------------------
+KEY: b14ca5898a4e4133bbce2ea2020a2020
+-----------------------------------------------------------------------
