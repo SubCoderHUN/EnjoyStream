@@ -11,6 +11,6 @@
 <li>Licensing with registry key (more in IMPORTANT.txt)</li>
 <li>Fody</li>
 </ul>
-    <h1 style="text-align: center;">The sale of the software is strictly prohibited!</h1>
+    <h1 style="text-align: center;">Sale of the software is strictly prohibited!</h1>
     </body>
 </html>
