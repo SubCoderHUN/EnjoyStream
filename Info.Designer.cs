@@ -47,7 +47,7 @@
             this.LocalVersion.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.LocalVersion.Size = new System.Drawing.Size(35, 24);
             this.LocalVersion.TabIndex = 26;
-            this.LocalVersion.Text = "2.1";
+            this.LocalVersion.Text = "2.2";
             // 
             // metroLink1
             // 
@@ -66,11 +66,11 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(32, 255);
+            this.label2.Location = new System.Drawing.Point(47, 255);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(269, 18);
+            this.label2.Size = new System.Drawing.Size(238, 18);
             this.label2.TabIndex = 24;
-            this.label2.Text = "© EnjoyStream by U3ViQ29kZXI=#4911";
+            this.label2.Text = "© EnjoyStream by SubCoder#4911";
             // 
             // label3
             // 

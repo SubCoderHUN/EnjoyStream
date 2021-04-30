@@ -19,7 +19,7 @@ namespace EnjoyPlayer
         #region Website
         private void metroLink1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://nexxon.eu");
+            System.Diagnostics.Process.Start("https://github.com/SubCoderHUN/EnjoyStream");
         }
         #endregion
         #region E-Mail

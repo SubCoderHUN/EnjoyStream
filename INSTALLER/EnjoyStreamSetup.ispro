@@ -1,8 +1,8 @@
 ; InstallSimple project
 
 [Setup]
-WindowTitle=EnjoyStream V2.1 - Installer
-ProductName=EnjoyStream V2.1
+WindowTitle=EnjoyStream V2.2 - Installer
+ProductName=EnjoyStream V2.2
 
 [Graphics]
 SplashScreen=
@@ -16,32 +16,32 @@ WizardFontColor=0
 [FirstMessage]
 
 [LastMessage]
-Thank you for using EnjoyStream V2.1!
+Thank you for using EnjoyStream V2.2!
 
 [LicenseAgreement]
 Modifying the software without displaying the source, will have legal consequences.
 Sale of the software is strictly prohibited!
 The sole owner of the program: 
-Novák "SubCoder" Zalán - Discord: U3ViQ29kZXI = # 4911
+Novák "SubCoder" Zalán - Discord: SubCoder=#4911
 
 The program is protected by copyright!
 If you have any questions, please contact the developer!
 
 [SetupFiles]
-SourceFolder=S:\Projektek\EnjoyStream\bin\Release\
+SourceFolder=S:\Projektek\GitHub\EnjoyStream\bin\Release
 SpecialFolder=Program Files
-SetupPath=EnjoyStreamV2.1
-SetupFile=S:\Projektek\EnjoyStream\INSTALLER\EnjoyStreamSetup2.1.exe
+SetupPath=EnjoyStreamV2.2
+SetupFile=S:\Projektek\GitHub\EnjoyStream\INSTALLER\EnjoyStreamSetup2.2.exe
 
 [Shortcuts]
 ProgramGroup=
-EnjoyStream.exe=dmq
+EnjoyStream.exe=dm
 
 [Registry]
 [HKEY_CURRENT_USER\Software\EnjoyStream]
-"LICENSE"="BT8JuHa8Xc8mgG8cvGHkPddZRqzpJ8bPGRZYTZCD"
-[HKEY_CURRENT_USER\Software\EnjoyStream]
 "CALL"="pKdm2ZnClWajH0pMU9798AdpGnnoOHLcIabjuYIom92hfjTXeqJw/UL1mfyYdWjy"
+[HKEY_CURRENT_USER\Software\EnjoyStream]
+"LICENSE"="BT8JuHa8Xc8mgG8cvGHkPddZRqzpJ8bPGRZYTZCD"
 
 [Requirements]
 OperatingSystem=4

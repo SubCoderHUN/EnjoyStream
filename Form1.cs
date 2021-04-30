@@ -2,7 +2,6 @@
 using System.Drawing;
 using System.Windows.Forms;
 using MetroFramework.Forms;
-using Microsoft.Win32;
 
 namespace EnjoyPlayer
 {
@@ -46,7 +45,7 @@ namespace EnjoyPlayer
                             }
                         case 1:
                             {
-                                coreplayer.URL = "https://stream.retroradio.hu/mid.mp3";
+                                coreplayer.URL = "https://stream1.retroradio.hu/mid.mp3";
                                 radiopicture.Image = Properties.Resources.retroradio;
                                 break;
                             }
@@ -64,13 +63,13 @@ namespace EnjoyPlayer
                             }
                         case 4:
                             {
-                                coreplayer.URL = "http://stream.klubradio.hu:8080/bpstream#.mp3?";
+                                coreplayer.URL = "http://hu-stream05.klubradio.hu:8080/bpstream";
                                 radiopicture.Image = Properties.Resources.klubradio;
                                 break;
                             }
                         case 5:
                             {
-                                coreplayer.URL = "https://stream.42netmedia.com:8443/karcfm-low";
+                                coreplayer.URL = "https://karcfm.42netmedia.com:8443/karcfm-low";
                                 radiopicture.Image = Properties.Resources.karcfm;
                                 break;
                             }
@@ -88,7 +87,7 @@ namespace EnjoyPlayer
                             }
                         case 8:
                             {
-                                coreplayer.URL = "http://uk5.internet-radio.com:8270/listen.pls&t=.m3u";
+                                coreplayer.URL = "https://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://server-23.stream-server.nl:8326/listen.pls?sid=1&t=.m3u";
                                 radiopicture.Image = Properties.Resources.hardstyle;
                                 break;
                             }
@@ -100,7 +99,7 @@ namespace EnjoyPlayer
                             }
                         case 10:
                             {
-                                coreplayer.URL = "http://stream.mercyradio.eu/mulatos.mp3";
+                                coreplayer.URL = "https://stream.diazol.hu:31032/mulatos.mp3";
                                 radiopicture.Image = Properties.Resources.mulatos;
                                 break;
                             }
@@ -130,7 +129,7 @@ namespace EnjoyPlayer
             }
             catch
             {
-                MessageBox.Show("HIBA! Kérjük, lépjen kapcsolatba a fejlesztővel", "EnjoyPlayer", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("HIBA! Kérjük, lépjen kapcsolatba a fejlesztővel", "EnjoyStream", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         #endregion
@@ -188,23 +187,6 @@ namespace EnjoyPlayer
             notifyIcon1.Visible = true;
             notifyIcon1.Text = "EnjoyStream";
             notifyIcon1.ShowBalloonTip(1000, "EnjoyStream", "Az alkalmazás minimalizálva", ToolTipIcon.Info);
-        }
-        #endregion
-        #region Website
-        private void metroLink1_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("http://nexxon.eu");
-        }
-        #endregion
-        #region E-Mail
-        /*--------------------------------------------
-         
-         Program oldalának megnyitása   
-             
-        --------------------------------------------*/
-        private void contactus_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("mailto:subcoder02@gmail.com");
         }
         #endregion
         #region Info
