@@ -21,8 +21,4 @@ INSTALLATION:
 To install InstallSimple simply unzip install-simple.zip
 and run Setup.exe
 
-CONTACTS:
-E-mail: info@InstallSimple.com
-http://www.InstallSimple.com/
-
 Copyright (c) 2007-2018, InstallSimple Solutions. All rights reserved.
