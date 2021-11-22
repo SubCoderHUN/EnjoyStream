@@ -45,7 +45,7 @@ namespace EnjoyPlayer
                             }
                         case 1:
                             {
-                                coreplayer.URL = "https://stream1.retroradio.hu/mid.mp3";
+                                coreplayer.URL = "https://icast.connectmedia.hu/5002/live.mp3";
                                 radiopicture.Image = Properties.Resources.retroradio;
                                 break;
                             }
@@ -81,13 +81,13 @@ namespace EnjoyPlayer
                             }
                         case 7:
                             {
-                                coreplayer.URL = "https://stream1.bestfmbudapest.hu/bestfm_128.mp3";
+                                coreplayer.URL = "https://icast.connectmedia.hu/5102/live.mp3";
                                 radiopicture.Image = Properties.Resources.bestfm;
                                 break;
                             }
                         case 8:
                             {
-                                coreplayer.URL = "https://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://server-23.stream-server.nl:8326/listen.pls?sid=1&t=.m3u";
+                                coreplayer.URL = "https://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://uk5.internet-radio.com:8270/listen.pls&t=.m3u";
                                 radiopicture.Image = Properties.Resources.hardstyle;
                                 break;
                             }
@@ -105,7 +105,7 @@ namespace EnjoyPlayer
                             }
                         case 11:
                             {
-                                coreplayer.URL = "https://s04.diazol.hu:20002/autodj";
+                                coreplayer.URL = "https://radiostat.info/streamtracking/https/radio.ch3.hu:8030/dtr_128k.mp3";
                                 radiopicture.Image = Properties.Resources.dunatisza;
                                 break;
                             }

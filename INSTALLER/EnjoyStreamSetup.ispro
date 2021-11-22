@@ -7,10 +7,10 @@ ProductName=EnjoyStream V2.2
 [Graphics]
 SplashScreen=
 SplashScreenDelay=3
-Header=S:\Projektek\EnjoyStream\Resources\enjoyplayer-5.bmp
+Header=S:\Projektek\GitHub\EnjoyStream\Resources\enjoyplayer-5.bmp
 HeaderJustify=Right
 HeaderFontColor=0
-WizardBitmap=S:\Projektek\EnjoyStream\Resources\enjoyplayer-5.bmp
+WizardBitmap=S:\Projektek\GitHub\EnjoyStream\Resources\enjoyplayer-5.bmp
 WizardFontColor=0
 
 [FirstMessage]
@@ -39,9 +39,9 @@ EnjoyStream.exe=dm
 
 [Registry]
 [HKEY_CURRENT_USER\Software\EnjoyStream]
-"CALL"="pKdm2ZnClWajH0pMU9798AdpGnnoOHLcIabjuYIom92hfjTXeqJw/UL1mfyYdWjy"
-[HKEY_CURRENT_USER\Software\EnjoyStream]
 "LICENSE"="BT8JuHa8Xc8mgG8cvGHkPddZRqzpJ8bPGRZYTZCD"
+[HKEY_CURRENT_USER\Software\EnjoyStream]
+"CALL"="pKdm2ZnClWajH0pMU9798AdpGnnoOHLcIabjuYIom92hfjTXeqJw/UL1mfyYdWjy"
 
 [Requirements]
 OperatingSystem=4

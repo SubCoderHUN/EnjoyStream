@@ -137,7 +137,7 @@
             this.Resizable = false;
             this.ShowIcon = false;
             this.Style = MetroFramework.MetroColorStyle.Silver;
-            this.Text = "License";
+            this.Text = "-";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             this.Shown += new System.EventHandler(this.License_Shown_1);
             this.ResumeLayout(false);

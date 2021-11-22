@@ -33,7 +33,7 @@ namespace EnjoyPlayer
             try
             {
                 Form1 main = new Form1();
-                RegistryKey license = Registry.CurrentUser.OpenSubKey(@"Software\EnjoyStream", false);
+                RegistryKey license = Registry.LocalMachine.OpenSubKey(@"Software\EnjoyStream", false);
                 var licensekey = license.GetValue("LICENSE").ToString();
                 RegistryKey call = Registry.CurrentUser.OpenSubKey(@"Software\EnjoyStream", false);
                 var callkey = call.GetValue("CALL").ToString();
