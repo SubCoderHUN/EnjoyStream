@@ -1,22 +1,22 @@
 ; InstallSimple project
 
 [Setup]
-WindowTitle=EnjoyStream V2.2 - Installer
-ProductName=EnjoyStream V2.2
+WindowTitle=EnjoyStream V2.3 - Installer
+ProductName=EnjoyStream V2.3
 
 [Graphics]
 SplashScreen=
 SplashScreenDelay=3
-Header=S:\Projektek\GitHub\EnjoyStream\Resources\enjoyplayer-5.bmp
+Header=S:\Projektek\GitHub\EnjoyStreamv2\Resources\enjoyplayer-5.bmp
 HeaderJustify=Right
 HeaderFontColor=0
-WizardBitmap=S:\Projektek\GitHub\EnjoyStream\Resources\enjoyplayer-5.bmp
+WizardBitmap=S:\Projektek\GitHub\EnjoyStreamv2\Resources\enjoyplayer-5.bmp
 WizardFontColor=0
 
 [FirstMessage]
 
 [LastMessage]
-Thank you for using EnjoyStream V2.2!
+Thank you for using EnjoyStream V2.3!
 
 [LicenseAgreement]
 Modifying the software without displaying the source, will have legal consequences.
@@ -28,10 +28,10 @@ The program is protected by copyright!
 If you have any questions, please contact the developer!
 
 [SetupFiles]
-SourceFolder=S:\Projektek\GitHub\EnjoyStream\bin\Release
+SourceFolder=S:\Projektek\GitHub\EnjoyStreamv2\bin\Release
 SpecialFolder=Program Files
-SetupPath=EnjoyStreamV2.2
-SetupFile=S:\Projektek\GitHub\EnjoyStream\INSTALLER\EnjoyStreamSetup2.2.exe
+SetupPath=EnjoyStream
+SetupFile=S:\Projektek\GitHub\EnjoyStreamv2\INSTALLER\EnjoyStreamSetup2.3.exe
 
 [Shortcuts]
 ProgramGroup=
@@ -39,9 +39,9 @@ EnjoyStream.exe=dm
 
 [Registry]
 [HKEY_CURRENT_USER\Software\EnjoyStream]
-"LICENSE"="BT8JuHa8Xc8mgG8cvGHkPddZRqzpJ8bPGRZYTZCD"
-[HKEY_CURRENT_USER\Software\EnjoyStream]
 "CALL"="pKdm2ZnClWajH0pMU9798AdpGnnoOHLcIabjuYIom92hfjTXeqJw/UL1mfyYdWjy"
+[HKEY_CURRENT_USER\Software\EnjoyStream]
+"LICENSE"="BT8JuHa8Xc8mgG8cvGHkPddZRqzpJ8bPGRZYTZCD"
 
 [Requirements]
 OperatingSystem=4

@@ -39,16 +39,17 @@ namespace EnjoyPlayer
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuProgressBar1 = new Bunifu.Framework.UI.BunifuProgressBar();
             this.elipsedtime = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.customstation = new MetroFramework.Controls.MetroTextBox();
+            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.radiopicture = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCircleProgressbar1 = new Bunifu.Framework.UI.BunifuCircleProgressbar();
-            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             ((System.ComponentModel.ISupportInitialize)(this.coreplayer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.radiopicture)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
             this.SuspendLayout();
             // 
             // coreplayer
@@ -79,7 +80,8 @@ namespace EnjoyPlayer
             "Mulatós Rádió",
             "Duna Tisza Rádió",
             "Tilos Rádió",
-            "Manna FM3"});
+            "Manna FM3",
+            "Custom"});
             this.metroComboBox1.Location = new System.Drawing.Point(23, 233);
             this.metroComboBox1.Name = "metroComboBox1";
             this.metroComboBox1.Size = new System.Drawing.Size(281, 29);
@@ -155,6 +157,59 @@ namespace EnjoyPlayer
             this.elipsedtime.Text = "00:00:00";
             this.elipsedtime.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // customstation
+            // 
+            // 
+            // 
+            // 
+            this.customstation.CustomButton.Image = null;
+            this.customstation.CustomButton.Location = new System.Drawing.Point(259, 1);
+            this.customstation.CustomButton.Name = "";
+            this.customstation.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.customstation.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
+            this.customstation.CustomButton.TabIndex = 1;
+            this.customstation.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
+            this.customstation.CustomButton.UseSelectable = true;
+            this.customstation.CustomButton.Visible = false;
+            this.customstation.Lines = new string[] {
+        "http://streamradiox.hu:8100/live2.mp3"};
+            this.customstation.Location = new System.Drawing.Point(23, 291);
+            this.customstation.MaxLength = 32767;
+            this.customstation.Name = "customstation";
+            this.customstation.PasswordChar = '\0';
+            this.customstation.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.customstation.SelectedText = "";
+            this.customstation.SelectionLength = 0;
+            this.customstation.SelectionStart = 0;
+            this.customstation.ShortcutsEnabled = true;
+            this.customstation.Size = new System.Drawing.Size(281, 23);
+            this.customstation.Style = MetroFramework.MetroColorStyle.Silver;
+            this.customstation.TabIndex = 41;
+            this.customstation.Text = "http://streamradiox.hu:8100/live2.mp3";
+            this.customstation.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.customstation.UseCustomForeColor = true;
+            this.customstation.UseSelectable = true;
+            this.customstation.UseStyleColors = true;
+            this.customstation.Visible = false;
+            this.customstation.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            this.customstation.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
+            this.customstation.TextChanged += new System.EventHandler(this.customstation_TextChanged);
+            this.customstation.Click += new System.EventHandler(this.customstation_Click);
+            // 
+            // bunifuImageButton2
+            // 
+            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
+            this.bunifuImageButton2.ImageActive = null;
+            this.bunifuImageButton2.Location = new System.Drawing.Point(30, 14);
+            this.bunifuImageButton2.Name = "bunifuImageButton2";
+            this.bunifuImageButton2.Size = new System.Drawing.Size(22, 20);
+            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton2.TabIndex = 40;
+            this.bunifuImageButton2.TabStop = false;
+            this.bunifuImageButton2.Zoom = 10;
+            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
+            // 
             // bunifuImageButton1
             // 
             this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
@@ -216,25 +271,12 @@ namespace EnjoyPlayer
             this.bunifuCircleProgressbar1.TabIndex = 27;
             this.bunifuCircleProgressbar1.Value = 100;
             // 
-            // bunifuImageButton2
-            // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(30, 14);
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(22, 20);
-            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton2.TabIndex = 40;
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 10;
-            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(330, 310);
+            this.Controls.Add(this.customstation);
             this.Controls.Add(this.bunifuImageButton2);
             this.Controls.Add(this.elipsedtime);
             this.Controls.Add(this.bunifuImageButton1);
@@ -253,13 +295,13 @@ namespace EnjoyPlayer
             this.Resizable = false;
             this.ShadowType = MetroFramework.Forms.MetroFormShadowType.AeroShadow;
             this.Style = MetroFramework.MetroColorStyle.Silver;
-            this.Text = "Stream";
+            this.Text = "EnjoyStream V2.3";
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
             ((System.ComponentModel.ISupportInitialize)(this.coreplayer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.radiopicture)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -279,6 +321,7 @@ namespace EnjoyPlayer
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton1;
         private Bunifu.Framework.UI.BunifuMaterialTextbox elipsedtime;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton2;
+        private MetroFramework.Controls.MetroTextBox customstation;
     }
 }
 

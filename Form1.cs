@@ -41,88 +41,112 @@ namespace EnjoyPlayer
                             {
                                 coreplayer.URL = "https://radioplayer.myonlineradio.hu/ldblncr/radio-1/mid.mp3";
                                 radiopicture.Image = Properties.Resources.radio1;
+                                customstation.Hide();
                                 break;
                             }
                         case 1:
                             {
                                 coreplayer.URL = "https://icast.connectmedia.hu/5002/live.mp3";
                                 radiopicture.Image = Properties.Resources.retroradio;
+                                customstation.Hide();
                                 break;
                             }
                         case 2:
                             {
                                 coreplayer.URL = "https://slagerfm.netregator.hu:7813/slagerfm128.mp3";
                                 radiopicture.Image = Properties.Resources.slagerfm;
+                                customstation.Hide();
                                 break;
                             }
                         case 3:
                             {
                                 coreplayer.URL = "https://icast.connectmedia.hu/4736/mr1.mp3";
                                 radiopicture.Image = Properties.Resources.kossuth;
+                                customstation.Hide();
                                 break;
                             }
                         case 4:
                             {
                                 coreplayer.URL = "http://hu-stream05.klubradio.hu:8080/bpstream";
                                 radiopicture.Image = Properties.Resources.klubradio;
+                                customstation.Hide();
                                 break;
                             }
                         case 5:
                             {
                                 coreplayer.URL = "https://karcfm.42netmedia.com:8443/karcfm-low";
                                 radiopicture.Image = Properties.Resources.karcfm;
+                                customstation.Hide();
                                 break;
                             }
                         case 6:
                             {
                                 coreplayer.URL = "http://adas.adasszerver.hu/live";
                                 radiopicture.Image = Properties.Resources.mixradio;
+                                customstation.Hide();
                                 break;
                             }
                         case 7:
                             {
                                 coreplayer.URL = "https://icast.connectmedia.hu/5102/live.mp3";
                                 radiopicture.Image = Properties.Resources.bestfm;
+                                customstation.Hide();
                                 break;
                             }
                         case 8:
                             {
                                 coreplayer.URL = "https://www.internet-radio.com/servers/tools/playlistgenerator/?u=http://uk5.internet-radio.com:8270/listen.pls&t=.m3u";
                                 radiopicture.Image = Properties.Resources.hardstyle;
+                                customstation.Hide();
                                 break;
                             }
                         case 9:
                             {
                                 coreplayer.URL = "http://uk7.internet-radio.com:8000/listen.pls&t=.m3u";
                                 radiopicture.Image = Properties.Resources.techno;
+                                customstation.Hide();
                                 break;
                             }
                         case 10:
                             {
                                 coreplayer.URL = "https://stream.diazol.hu:31032/mulatos.mp3";
                                 radiopicture.Image = Properties.Resources.mulatos;
+                                customstation.Hide();
                                 break;
                             }
                         case 11:
                             {
                                 coreplayer.URL = "https://radiostat.info/streamtracking/https/radio.ch3.hu:8030/dtr_128k.mp3";
                                 radiopicture.Image = Properties.Resources.dunatisza;
+                                customstation.Hide();
                                 break;
                             }
                         case 12:
                             {
                                 coreplayer.URL = "http://stream.tilos.hu/tilos_128.mp3";
                                 radiopicture.Image = Properties.Resources.tilosradio;
+                                customstation.Hide();
                                 break;
                             }
                         case 13:
                             {
                                 coreplayer.URL = "https://icast.connectmedia.hu/4780/live.mp3";
                                 radiopicture.Image = Properties.Resources.mannafm;
+                                customstation.Hide();
+                                break;
+                            }
+                        case 14:
+                            {
+                                coreplayer.URL = customstation.Text;
+                                radiopicture.Image = Properties.Resources.questionmark;
+                                customstation.Show();
                                 break;
                             }
                     }
-                    coreplayer.Ctlcontrols.play();
+                    if (customstation.Text != null)
+                        coreplayer.Ctlcontrols.play();
+                    else
+                        MessageBox.Show("Station link coud not be empty!", "EnjoyStream", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                     coreplayer.Ctlcontrols.pause();
@@ -162,6 +186,16 @@ namespace EnjoyPlayer
         {
             stp = !stp;
             PlayerCore();
+        }
+        private void customstation_Click(object sender, EventArgs e)
+        {
+            customstation.Clear();
+        }
+        private void customstation_TextChanged(object sender, EventArgs e)
+        {
+            coreplayer.Ctlcontrols.stop();
+            coreplayer.URL = customstation.Text;
+            coreplayer.Ctlcontrols.play();
         }
 
         #endregion

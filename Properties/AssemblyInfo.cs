@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EnjoyStream")]
-[assembly: AssemblyDescription("EnjoyStream V2.1")]
+[assembly: AssemblyDescription("EnjoyStream V2.3")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("EnjoyStream")]
 [assembly: AssemblyProduct("EnjoyStream")]
-[assembly: AssemblyCopyright("Copyright ©  2020 EnjoyStream")]
-[assembly: AssemblyTrademark("Copyright ©  2020 EnjoyStream")]
+[assembly: AssemblyCopyright("Copyright ©  2021 EnjoyStream")]
+[assembly: AssemblyTrademark("Copyright ©  2021 EnjoyStream")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

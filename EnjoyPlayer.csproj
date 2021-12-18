@@ -171,6 +171,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="enjoyplayer.ico" />
+    <None Include="Resources\questionmark.png" />
     <None Include="Resources\mannafm.jpg" />
     <None Include="Resources\tilosradio.jpg" />
     <None Include="Resources\dunatisza.png" />
